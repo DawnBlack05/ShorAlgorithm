@@ -1,2 +1,6 @@
-# QuantumComputing
-Qiskit을 이용해 양자 회로 설계
+# Shor's algorithm
+Qiskit으로 Shor's algorithm을 구현해 RSA 암호 체계 해킹을 시도해보는 프로젝트입니다.   
+Shor's algorithm은 소인수 분해를 $O(log^3(N))$의 시간 내에 해결할 수 있음이 알려져 있습니다.   
+그리고 RSA 암호 체계는 소인수 분해를 기반으로 하죠.   
+아직 양자 컴퓨터의 발전이 많이 부족해서, 실제로 Shor's algorithm으로 일반적인 RSA 암호 체계를 해킹하는 것은 많이 어려울 것입니다.   
+양자 컴퓨터가 단시간 내에 풀어낼 수 있는 예제인 15의 소인수 분해를 통해 이를 시도해보려 합니다.   
